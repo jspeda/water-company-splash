@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.logo {
+  align-self: center;
+  text-align: center;
+  width: 75%;
+  font-size: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: solid 1px #655d55;
+  color: #CE3062;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #00517F;
+  font-size: 22px;
+}
+
+.navbar > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30%;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.body {
+  max-height: 100vw;
+}
+
+.hero img {
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.triptych {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid white;
+  height: 100%;
+}
+
+.triptych > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  width: 25%;
+  height: 400px;
+  background: white;
+  font-size: 40px;
+  color: #655d55;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  background-color: #00517F;
+  color: white;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  height: 85%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.information > div {
+  width: 20%;
+}
+
+.information1 > div, .information2 > div, .information3 > div, .information4 > div {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+.copyright {
+  padding-left: 5%;
+}
